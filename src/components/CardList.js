@@ -14,11 +14,11 @@ const CardList = ({restaurants}) => {
             postmates={restaurants[i].postmates}
             grubhub={restaurants[i].grubhub}
         />
-        );
+        )
     });
     return (
         <div>
-            {cardComponent};
+            {cardComponent}
         </div>
     );
 }
