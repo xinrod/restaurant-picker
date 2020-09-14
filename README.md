@@ -1,3 +1,14 @@
+This is a prototype for an app idea: display various restaurants around you and delivery prices on various apps.
+Designed to help people find the cheapest delivery!
+
+## TODO
+-Currently using fake REST API server, implement real one. As a result, all data inputted is not checked for accuracy or reviewed in any way. 
+All data inputted is also temporary.
+
+-Location services
+
+-Fix ROBOT images, find non-copyrighted images for restaurants instead.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
