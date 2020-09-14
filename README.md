@@ -5,9 +5,7 @@ Designed to help people find the cheapest delivery!
 -Currently using fake REST API server, implement real one. As a result, all data inputted is not checked for accuracy or reviewed in any way. 
 All data inputted is also temporary.
 
--Location services
-
--Fix ROBOT images, find non-copyrighted images for restaurants instead.
+-Currently images are set to random robot images. Fix random robot hash images, find non-copyrighted images for restaurants instead.
 
 
 
