@@ -15,7 +15,7 @@ class App extends React.Component {
         }
     }
     componentDidMount() {
-        fetch('http://my-json-server.typicode.com/xinrod/rpicker-server/restaurants')
+        fetch('https://my-json-server.typicode.com/xinrod/rpicker-server/restaurants')
         .then(response => response.json())
         .then(restaurants => this.setState({restaurants: restaurants}));
         //fetch('http://jsonplaceholder.typicode.com/users')
@@ -38,7 +38,7 @@ class App extends React.Component {
         if (gh === "") {
             gh = "N/A";
         }
-        fetch('http://my-json-server.typicode.com/xinrod/rpicker-server/restaurants', {
+        fetch('https://my-json-server.typicode.com/xinrod/rpicker-server/restaurants', {
             method: 'POST',
             body: JSON.stringify({
             name: name,
@@ -68,7 +68,7 @@ class App extends React.Component {
             this.setState({restaurants: restaurantsUpdate});
         })
         //TODO: Set-up real rest api
-        // fetch('http://my-json-server.typicode.com/xinrod/rpicker-server/restaurants')
+        // fetch('https://my-json-server.typicode.com/xinrod/rpicker-server/restaurants')
         // .then(response => response.json())
         // .then(restaurants => this.setState({restaurants: restaurants}));
     }
