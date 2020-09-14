@@ -9,6 +9,14 @@ All data inputted is also temporary.
 
 -Fix ROBOT images, find non-copyrighted images for restaurants instead.
 
+
+
+
+
+
+
+## react
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
