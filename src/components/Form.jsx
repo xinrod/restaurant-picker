@@ -3,35 +3,42 @@ export const Form = ({ onSubmit }) => {
 return (
 <form onSubmit={onSubmit}>
     <div className="form-group">
-        <label htmlFor="name">Name: </label>
+        <label >Name: </label>
         <input className="form-control" id="name" />
     </div> 
   
     <div className="form-group">
-        <label htmlFor="email">DoorDash Price: </label>
+        <label >DoorDash Price: </label>
         <input className="form-control" id="doordash"
         placeholder="0.00" 
         />
     </div>
 
     <div className="form-group">
-        <label htmlFor="email">UberEats Price: </label>
+        <label >UberEats Price: </label>
         <input className="form-control" id="ubereats"
         placeholder="0.00" 
         />
     </div>
 
     <div className="form-group">
-        <label htmlFor="email">Postmates Price: </label>
+        <label >Postmates Price: </label>
         <input className="form-control" id="postmates"
         placeholder="0.00" 
         />
     </div>
 
     <div className="form-group">
-        <label htmlFor="email">Grubhub Price: </label>
+        <label >Grubhub Price: </label>
         <input className="form-control" id="grubhub"
         placeholder="0.00" 
+        />
+    </div>
+
+    <div className="form-group">
+        <label >Link: </label>
+        <input className="form-control" id="link"
+        placeholder="https://www..." 
         />
     </div>
 

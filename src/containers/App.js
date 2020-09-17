@@ -22,9 +22,8 @@ class App extends React.Component {
     }
     onSearchChange = (event) => {
         this.setState({ searchfield: event.target.value })
-        
     }
-    addRestaurantName = (name, dd,ue,p,gh) => {
+    addRestaurantName = (name, dd,ue,p,gh, link) => {
         //let restaurant = [name, prices[0], prices[1], prices[2], prices[3]];
         if (dd === "") {
             dd = "N/A";
@@ -45,7 +44,8 @@ class App extends React.Component {
             doordash: dd,
             ubereats: ue,
             postmates: p,
-            grubhub: gh
+            grubhub: gh,
+            link: link
         }),
             headers: {
             "Content-type": "application/json; charset=UTF-8"
@@ -79,7 +79,8 @@ class App extends React.Component {
                             event.target.doordash.value, 
                             event.target.ubereats.value, 
                             event.target.postmates.value, 
-                            event.target.grubhub.value);
+                            event.target.grubhub.value,
+                            event.target.link.value);
     };
     render() {
         // const filteredRestaurants = this.state.restaurants;
@@ -92,6 +93,7 @@ class App extends React.Component {
             return (
                 <div className='tc'>
                     <h1>Delivery Picker</h1>
+                    <p>Note: Robots are placeholder images</p>
                     <SearchBox searchChange={this.onSearchChange}/>
                     <Container triggerText={'Add a Restaurant'} onSubmit={this.onSubmit} />
                     <Scroll>
