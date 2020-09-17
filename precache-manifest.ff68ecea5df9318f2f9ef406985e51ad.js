@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "935ffe298ba7b32b2c2761ef78198b4d",
+    "revision": "f2abe15a33ce0a6fe799933f065528c2",
     "url": "/restaurant-picker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restaurant-picker/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "c33e2ed4e943dda5b048",
+    "revision": "1c7e6141529911dafa57",
     "url": "/restaurant-picker/static/css/main.27706786.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restaurant-picker/static/js/2.45094f64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c33e2ed4e943dda5b048",
-    "url": "/restaurant-picker/static/js/main.29cc263c.chunk.js"
+    "revision": "1c7e6141529911dafa57",
+    "url": "/restaurant-picker/static/js/main.dc0fc59a.chunk.js"
   },
   {
     "revision": "1dd8ed3366b24a647254",
