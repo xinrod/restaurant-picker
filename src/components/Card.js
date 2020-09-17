@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = (props) => {
     return (
-        <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow5'>
+        <a href={props.link} className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow5 nostyle'>
             <div>
                 <img src={`https://robohash.org/${props.id}?200x200`}  alt={`${props.name}`} width='200' height='200'/>
                 <div>
@@ -13,7 +13,9 @@ const Card = (props) => {
                     <p>GrubHub: ${props.grubhub}</p>
                 </div>
             </div>
-        </div>
+        </a >
+        
+
     );
 }
 

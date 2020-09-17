@@ -13,6 +13,7 @@ const CardList = ({restaurants}) => {
             ubereats={restaurants[i].ubereats}
             postmates={restaurants[i].postmates}
             grubhub={restaurants[i].grubhub}
+            link={restaurants[i].link}
         />
         )
     });
